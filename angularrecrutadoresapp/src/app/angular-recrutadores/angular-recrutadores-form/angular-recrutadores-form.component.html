@@ -1,0 +1,15 @@
+<form>
+  <input type="hidden" id="id" [value]="service.formData.id" />
+  <div class="form-group">
+    <label>Nome:</label>
+    <input type="text" class="form-control form-control-lg" placeholder="Preencha Nome" name="nome" #nome="ngModel" [(ngModel)]="service.formData.nome" />
+  </div>
+  <div class="form-group">
+    <label>Email:</label>
+    <input type="text" class="form-control form-control-lg" placeholder="Preencha Email" name="email" #email="ngModel" [(ngModel)]="service.formData.email" />
+  </div>
+  <div class="form-group">
+    <label>Empresa:</label>
+    <input type="text" class="form-control form-control-lg" placeholder="Preencha Empresa" name="empresa" #empresa="ngModel" [(ngModel)]="service.formData.empresa" />
+  </div>
+</form>
