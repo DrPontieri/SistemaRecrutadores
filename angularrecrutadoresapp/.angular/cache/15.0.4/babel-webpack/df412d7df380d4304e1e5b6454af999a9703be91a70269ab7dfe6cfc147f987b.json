@@ -1,0 +1,1 @@
+{"ast":null,"code":"export class AngularRecrutadores {\n  constructor() {\n    this.id = 0;\n    this.nome = '';\n    this.email = '';\n    this.empresa = '';\n  }\n}","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
