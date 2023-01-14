@@ -363,6 +363,7 @@ MigrationBackup/
 FodyWeavers.xsd
 /AngularRecrutadores
 /angularrecrutadoresapp.del.del
+<<<<<<< Updated upstream
 /InfraEstrutura/Migrations/20221230230838_Inicial.Designer.cs
 /InfraEstrutura/Migrations/20221230230838_Inicial.cs
 /SistemaRecrutadores/Controllers/TecnologiasController.cs
@@ -370,3 +371,5 @@ FodyWeavers.xsd
 /SistemaRecrutadores/Controllers/UsersController.cs
 /SistemaRecrutadores/Controllers/WeatherForecastController.cs
 /SistemaRecrutadores/appsettings.Development.json
+=======
+>>>>>>> Stashed changes
