@@ -1,11 +1,6 @@
 ﻿using Dominio;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace InfraEstrutura
 {
@@ -25,7 +20,7 @@ namespace InfraEstrutura
             => _dbContext.Add(entity);
 
 
-        public async Task AddAsync(T entity, CancellationToken cancellationToken = default)
+        public async Task AddAsync(T entity)
             => await _dbContext.AddAsync(entity);
 
 
@@ -37,7 +32,7 @@ namespace InfraEstrutura
             => await _dbContext.AddRangeAsync(entities);
 
 
-        public T Get(Expression<Func<T, bool>> expression)
+        public T? Get(Expression<Func<T, bool>> expression)
             => _entitiySet.FirstOrDefault(expression);
 
 
@@ -57,8 +52,8 @@ namespace InfraEstrutura
             => await _entitiySet.Where(expression).ToListAsync(cancellationToken);
 
 
-        public async Task<T> GetAsync(Expression<Func<T, bool>> expression, CancellationToken cancellationToken = default)
-            => await _entitiySet.FirstOrDefaultAsync(expression);
+        public async Task<T?> GetAsync(Expression<Func<T, bool>> expression, CancellationToken cancellationToken = default)
+            => await _entitiySet.FirstOrDefaultAsync(expression, cancellationToken);
 
 
         public void Remove(T entity)

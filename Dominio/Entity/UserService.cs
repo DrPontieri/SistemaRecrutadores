@@ -1,25 +1,18 @@
-﻿using System.ComponentModel.DataAnnotations.Schema;
+﻿using Dominio.Interface;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Dominio.Entity
 {
-    [Table("User")]
-    public partial class User : BaseEntity
+    [NotMapped]
+    public partial class UserService : BaseEntity
     {
         //public User()
         //{
         //    ListTecnologia = new HashSet<Tecnologia>();
         //    ListUserTecnologia = new HashSet<UserTecnologia>();
         //}
-
-        [Column(TypeName = "varchar(200)")]
         public String? Nome { get; set; }
-
-
-        [Column(TypeName = "varchar(200)")]
         public String? Email { get; set; }
-
-
-        [Column(TypeName = "varchar(200)")]
         public String? Empresa { get; set; }
 
         //public virtual ICollection<Tecnologia> ListTecnologia { get; set; }
