@@ -9,8 +9,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dominio", "Dominio\Dominio.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InfraEstrutura", "InfraEstrutura\InfraEstrutura.csproj", "{A968170A-2E8C-4CBC-957D-8F136C594A51}"
 EndProject
-Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "AngularRecrutadores", "AngularRecrutadores\AngularRecrutadores.esproj", "{4E14E910-C16A-464F-A1CB-7DCA12C58683}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,12 +27,6 @@ Global
 		{A968170A-2E8C-4CBC-957D-8F136C594A51}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A968170A-2E8C-4CBC-957D-8F136C594A51}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A968170A-2E8C-4CBC-957D-8F136C594A51}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4E14E910-C16A-464F-A1CB-7DCA12C58683}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4E14E910-C16A-464F-A1CB-7DCA12C58683}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4E14E910-C16A-464F-A1CB-7DCA12C58683}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{4E14E910-C16A-464F-A1CB-7DCA12C58683}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4E14E910-C16A-464F-A1CB-7DCA12C58683}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4E14E910-C16A-464F-A1CB-7DCA12C58683}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
